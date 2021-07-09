@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175328252312",
+    "project_id": "quizbee-deaac",
+    "storage_bucket": "quizbee-deaac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175328252312:android:2a698e93674a5467339bed",
+        "android_client_info": {
+          "package_name": "com.example.android.quizbee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175328252312-f00g28p1os0sffmnag7un9rmrhiboea2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2fD0RojuwMQ3xHRK_Fnlza6NLyXInVr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175328252312-f00g28p1os0sffmnag7un9rmrhiboea2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

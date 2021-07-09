@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gunmetal"
+    android:backgroundTint="@color/gunmetal"
+    tools:context=".QuizCard">
+
+    <LinearLayout
+        android:id="@+id/quizCard"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/quizbox_sel"
+        android:backgroundTint="@color/yellow"
+        android:elevation="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quizTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textColor="@color/gunmetal"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quizDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textColor="@color/gunmetal" />
+
+        <TextView
+            android:id="@+id/quizTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textColor="@color/gunmetal" />
+
+        <TextView
+            android:id="@+id/quizCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textColor="@color/gunmetal" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

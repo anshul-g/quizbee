@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quizbee</string>
+    <string name="hint_email">Email address</string>
+    <string name="enter_email">Enter your email address</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="app_logo">app_logo</string>
+    <!--    <string name="title_activity_sign_up">SignUp</string>-->
+    <string name="welcome_text">Welcome!</string>
+    <string name="logo_text">QUIZBEE</string>
+    <string name="image_des">logo</string>
+    <string name="grades_text">Grades</string>
+    <string name="courses_text">COURSES</string>
+    <string name="my_profile_text">My Profile</string>
+    <string name="avatar">avatar</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup">Don\'t have an account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email_address">Email Address</string>
+
+    <string-array name="usertype">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+</resources>

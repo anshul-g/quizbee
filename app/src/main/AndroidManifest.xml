@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android.quizbee"
+    android:usesCleartextTraffic="true"
+    tools:targetApi="m">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quizbee">
+        <activity
+            android:name=".teacher.Account_teacher"
+            android:parentActivityName=".teacher.MainActivity_teacher" />
+        <activity
+            android:name=".teacher.Grades_teacher"
+            android:parentActivityName=".teacher.MainActivity_teacher" />
+        <activity
+            android:name=".teacher.Quizzes_teacher"
+            android:parentActivityName=".teacher.MainActivity_teacher" />
+        <activity android:name=".teacher.MainActivity_teacher" />
+        <activity android:name=".MainApp.ResultActivity" />
+        <activity android:name=".MainApp.AttemptQuiz" />
+        <activity
+            android:name=".ResetPassword"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".MainApp.Account"
+            android:parentActivityName=".MainApp.MainActivity" />
+        <activity
+            android:name=".MainApp.Grades"
+            android:parentActivityName=".MainApp.MainActivity" />
+        <activity
+            android:name=".MainApp.Quizzes"
+            android:parentActivityName=".MainApp.MainActivity" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Login" />
+        <activity android:name=".MainApp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
